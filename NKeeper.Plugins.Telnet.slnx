@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="backend/NKeeper.Plugins.Telnet.csproj" />
+  <Project Path="tests/NKeeper.Plugins.Telnet.Tests.csproj" />
+</Solution>

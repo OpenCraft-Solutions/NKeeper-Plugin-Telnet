@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- The telnet plugin (docs/architecture.md §7.11). Built, packed and signed by NKeeper.Plugin.Build,
+       which also builds the frontend in ../frontend. -->
+  <ItemGroup>
+    <PackageReference Include="NKeeper.Abstractions" />
+    <PackageReference Include="NKeeper.Plugin.Build" PrivateAssets="all" />
+  </ItemGroup>
+
+</Project>
