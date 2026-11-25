@@ -2,8 +2,8 @@
   "formatVersion": 1,
   "id": "telnet",
   "name": "Telnet",
-  "version": "1.0.0",
-  "sdkVersion": ">=1.1.0 <2.0.0",
+  "version": "1.1.0",
+  "sdkVersion": ">=1.16.1 <2.0.0",
   "builtIn": true,
   "frontend": {
     "entry": "frontend/index.js"

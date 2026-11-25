@@ -17,7 +17,7 @@ public sealed class TelnetPlugin : IPlugin
     public void Contribute(IPluginContributions contributions, PluginContext context)
     {
         contributions.AddServiceType(new ServiceType(ServiceTypeId, "Telnet (unencrypted)") { DefaultPort = 23, Health = HealthProbe.Tcp });
-        contributions.AddSessionType(new SessionType(ServiceTypeId, "Telnet", typeof(TerminalSessionHandler)) { ServiceTypes = [ServiceTypeId] });
+        contributions.AddSessionType(new SessionType(ServiceTypeId, "Telnet", typeof(TerminalSessionHandler)) { ServiceTypes = [ServiceTypeId], RecordsTerminal = true });
         // Core signs in with the credential; without one, the user types at the server's prompts.
         contributions.AddHostAction(new HostAction("telnet.terminal", "Telnet", SessionType: ServiceTypeId));
         contributions.AddHostAction(new HostAction("telnet.typed", "Telnet (sign in yourself)", SessionType: ServiceTypeId) { Credential = HostActionCredential.None });
