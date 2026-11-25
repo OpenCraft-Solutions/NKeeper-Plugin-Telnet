@@ -14,9 +14,9 @@
       },
       "NKeeper.Testing": {
         "type": "Direct",
-        "requested": "[1.1.0, )",
-        "resolved": "1.1.0",
-        "contentHash": "WjkclJ2XqyGbIOddwWT9HIunZ/hU8Zn4aZtNS/ybdOwgP84cr+N4BSXvCXjC6Ggse7p5R94xXKTq/buamXz/+Q==",
+        "requested": "[1.16.1, )",
+        "resolved": "1.16.1",
+        "contentHash": "HmhJC0t6Ey4IbyRbX+00aOKX7OYFFv3qgPIj7Pu5Ia3kJ7joiItvaUHUz4iQsePLk5QdgdfN7RkMFp6Z8k7rxQ==",
         "dependencies": {
           "Npgsql": "10.0.3",
           "SSH.NET": "2026.0.0",

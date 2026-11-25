@@ -17,6 +17,8 @@ Ported from NKeeper 1.x's Telnet terminals.
 
 The plugin's ID is `telnet`, and it is built in: it is signed with NKeeper's official key and installed with NKeeper.
 
+**Recordings** (1.1.0, SDK 1.16.1): its terminal is declared a recorded one, so core records what it showed, never what was typed, for the audit log (NKeeper's `docs/architecture.md` §7.51).
+
 ## Layout
 
 ```text
